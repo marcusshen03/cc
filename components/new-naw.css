@@ -1,0 +1,323 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  transition: 0.3s;
+  font-weight: 400;
+  margin-left: 32px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.navigation-links-navlink:hover {
+  font-weight: 700;
+}
+.navigation-links-navlink1 {
+  transition: 0.3s;
+  font-weight: 400;
+  margin-left: 32px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.navigation-links-navlink1:hover {
+  font-weight: 700;
+}
+.navigation-links-navlink2 {
+  transition: 0.3s;
+  font-weight: 400;
+  margin-left: 32px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.navigation-links-navlink2:hover {
+  font-weight: 700;
+}
+.navigation-links-text1 {
+  margin-left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.new\ naw-container {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.new\ naw-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 95%;
+  align-self: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.new\ naw-nav {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: none;
+}
+.new\ naw-navlink {
+  display: contents;
+}
+.new\ naw-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-round);
+  text-decoration: none;
+}
+.new\ naw-image:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  border-radius: Round;
+}
+.new\ naw-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: none;
+}
+.new\ naw-container1 {
+  width: 75%;
+  height: 73px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.new\ naw-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.new\ naw-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.new\ naw-button {
+  font-size: 1em;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Inter;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 15px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.new\ naw-button:hover {
+  background-color: #FAC898;
+}
+.new\ naw-link {
+  display: contents;
+}
+.new\ naw-icon {
+  width: 16px;
+  height: 16px;
+  display: none;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.new\ naw-button1 {
+  font-size: 1em;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Inter;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 15px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.new\ naw-button1:hover {
+  background-color: #FAC898;
+}
+.new\ naw-button2 {
+  font-size: 1em;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Inter;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 15px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.new\ naw-button2:hover {
+  background-color: #FAC898;
+}
+.new\ naw-link1 {
+  display: contents;
+}
+.new\ naw-icon02 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.new\ naw-menu-burger {
+  display: none;
+}
+.new\ naw-icon04 {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.new\ naw-menu-mobile {
+  display: none;
+}
+.new\ naw-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.new\ naw-container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+.new\ naw-image1 {
+  height: 2rem;
+}
+.new\ naw-icon06 {
+  width: 16px;
+  height: 16px;
+}
+.new\ naw-icon08 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.new\ naw-icon10 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.new\ naw-icon12 {
+  width: 16px;
+  height: 16px;
+}
+
+
+.new\ naw-root-class-name2 {
+  height: 100%;
+}
+@media(max-width: 991px) {
+  .new\ naw-icon {
+    display: none;
+  }
+  .new\ naw-icon02 {
+    display: flex;
+  }
+  .new\ naw-icon04 {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .new\ naw-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .new\ naw-nav {
+    display: none;
+  }
+  .new\ naw-icon {
+    display: none;
+  }
+  .new\ naw-icon02 {
+    display: none;
+  }
+  .new\ naw-menu-burger {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .new\ naw-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .new\ naw-icon-group {
+    display: none;
+  }
+  .new\ naw-button {
+    display: none;
+  }
+  .new\ naw-icon {
+    display: flex;
+  }
+  .new\ naw-button1 {
+    display: none;
+  }
+  .new\ naw-button2 {
+    display: none;
+  }
+  .new\ naw-menu-mobile {
+    display: none;
+    padding: 16px;
+  }
+}

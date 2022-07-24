@@ -1,0 +1,15 @@
+.container-container {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  border-radius: var(--dl-radius-radius-round);
+  background-size: cover;
+  background-image: url("public/playground_assets/cub-council-logo-200h.png");
+  background-position: center;
+}
+.container-container:hover {
+  width: 64px;
+  height: 64px;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  border-radius: Round;
+}

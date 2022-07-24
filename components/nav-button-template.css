@@ -1,0 +1,23 @@
+.nav\ button\ template-container {
+  display: flex;
+  position: relative;
+}
+.nav\ button\ template-button {
+  font-size: 1em;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Inter;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-color: rgba(0, 0, 0, 0);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 15px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: transparent;
+}
+.nav\ button\ template-button:hover {
+  background-color: #FAC898;
+}

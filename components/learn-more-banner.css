@@ -1,0 +1,30 @@
+.learn\ more\ banner-container {
+  display: flex;
+  position: relative;
+  border-radius: 15px;
+}
+.learn\ more\ banner-button {
+  height: 100%;
+  font-size: 21px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 3;
+  padding-top: 0rem;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  padding-bottom: 0rem;
+  text-decoration: none;
+  background-color: transparent;
+}
+.learn\ more\ banner-button:hover {
+  color: var(--dl-color-gray-black);
+  transform: scale(1.08);
+}
+.learn\ more\ banner-button:active {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
